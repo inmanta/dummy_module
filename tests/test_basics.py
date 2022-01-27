@@ -25,4 +25,4 @@ def test_basics(project: Project) -> None:
         """
     )
 
-    assert project.get_stdout() == "hello world!\n"
+    assert project.get_stdout() == "hello world\n"
