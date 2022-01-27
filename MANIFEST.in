@@ -1,4 +1,0 @@
-include inmanta_plugins/dummy_module/setup.cfg
-recursive-include inmanta_plugins/dummy_module/model *.cf
-graft inmanta_plugins/dummy_module/files
-graft inmanta_plugins/dummy_module/templates
