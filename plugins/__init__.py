@@ -23,4 +23,4 @@ def hello(what: "string") -> "string":
     """
     Say hello to what
     """
-    return f"hello {what}"
+    return f"hello {what}!"
