@@ -1,3 +1,8 @@
 pipeline_template: ci/modules/Jenkinsfile-integration-tests-generic
 run_flake: "true"
 mypy_mode: "fail"
+credentials:
+  - type: "usernamePassword"
+    credentialsId: "aws-jenkins-user"
+    usernameVariable: "AWS_ACCESS_KEY_ID"
+    passwordVariable: "AWS_SECRET_ACCESS_KEY"
