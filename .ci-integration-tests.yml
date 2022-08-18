@@ -1,6 +1,6 @@
 pipeline_template: ci/modules/Jenkinsfile-integration-tests
 run_flake: "true"
-mypy_mode: "fail"
+mypy_mode: "report"
 credentials:
   - type: "usernamePassword"
     credentialsId: "aws-jenkins-user"
