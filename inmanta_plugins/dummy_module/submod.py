@@ -15,6 +15,7 @@
 
     Contact: code@inmanta.com
 """
+
 from inmanta.plugins import plugin
 
 
@@ -24,11 +25,3 @@ def hello(what: "string") -> "string":
     Say hello to what.
     """
     return f"hello {what}!"
-
-
-@plugin
-def goodbye(what: "string") -> "string":
-    """
-    Say goodbyeello to what.
-    """
-    return f"goodbyeello {what}!"
